@@ -3,27 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31639B0C5BEA0B7C0E496B31 /* Pods_ReactorKitTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2941B7643CB6A0857B5B0977 /* Pods_ReactorKitTutorial.framework */; };
 		DAC42F5925DA5F1100C03BE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC42F5825DA5F1100C03BE4 /* AppDelegate.swift */; };
 		DAC42F5B25DA5F1100C03BE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC42F5A25DA5F1100C03BE4 /* SceneDelegate.swift */; };
-		DAC42F5D25DA5F1100C03BE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC42F5C25DA5F1100C03BE4 /* ViewController.swift */; };
 		DAC42F6025DA5F1100C03BE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC42F5E25DA5F1100C03BE4 /* Main.storyboard */; };
 		DAC42F6225DA5F1200C03BE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC42F6125DA5F1200C03BE4 /* Assets.xcassets */; };
 		DAC42F6525DA5F1200C03BE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC42F6325DA5F1200C03BE4 /* LaunchScreen.storyboard */; };
+		DAC42F6F25DA5F2B00C03BE4 /* FruitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC42F6E25DA5F2B00C03BE4 /* FruitViewController.swift */; };
+		DAC42F7D25DA626900C03BE4 /* FruitReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC42F7C25DA626900C03BE4 /* FruitReactor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2941B7643CB6A0857B5B0977 /* Pods_ReactorKitTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactorKitTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77463D2444F53989B1430A24 /* Pods-ReactorKitTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorKitTutorial.release.xcconfig"; path = "Target Support Files/Pods-ReactorKitTutorial/Pods-ReactorKitTutorial.release.xcconfig"; sourceTree = "<group>"; };
+		8D603B0FCB5E8DA4A845E30C /* Pods-ReactorKitTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorKitTutorial.debug.xcconfig"; path = "Target Support Files/Pods-ReactorKitTutorial/Pods-ReactorKitTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		DAC42F5525DA5F1100C03BE4 /* ReactorKitTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactorKitTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC42F5825DA5F1100C03BE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAC42F5A25DA5F1100C03BE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DAC42F5C25DA5F1100C03BE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DAC42F5F25DA5F1100C03BE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAC42F6125DA5F1200C03BE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAC42F6425DA5F1200C03BE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAC42F6625DA5F1200C03BE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC42F6E25DA5F2B00C03BE4 /* FruitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitViewController.swift; sourceTree = "<group>"; };
+		DAC42F7C25DA626900C03BE4 /* FruitReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitReactor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31639B0C5BEA0B7C0E496B31 /* Pods_ReactorKitTutorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06E36E545C1602D4F233C00E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D603B0FCB5E8DA4A845E30C /* Pods-ReactorKitTutorial.debug.xcconfig */,
+				77463D2444F53989B1430A24 /* Pods-ReactorKitTutorial.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		37EE0E909C63DB8A6D34D160 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2941B7643CB6A0857B5B0977 /* Pods_ReactorKitTutorial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DAC42F4C25DA5F1100C03BE4 = {
 			isa = PBXGroup;
 			children = (
 				DAC42F5725DA5F1100C03BE4 /* ReactorKitTutorial */,
 				DAC42F5625DA5F1100C03BE4 /* Products */,
+				06E36E545C1602D4F233C00E /* Pods */,
+				37EE0E909C63DB8A6D34D160 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +84,12 @@
 			children = (
 				DAC42F5825DA5F1100C03BE4 /* AppDelegate.swift */,
 				DAC42F5A25DA5F1100C03BE4 /* SceneDelegate.swift */,
-				DAC42F5C25DA5F1100C03BE4 /* ViewController.swift */,
 				DAC42F5E25DA5F1100C03BE4 /* Main.storyboard */,
 				DAC42F6125DA5F1200C03BE4 /* Assets.xcassets */,
+				DAC42F7C25DA626900C03BE4 /* FruitReactor.swift */,
 				DAC42F6325DA5F1200C03BE4 /* LaunchScreen.storyboard */,
 				DAC42F6625DA5F1200C03BE4 /* Info.plist */,
+				DAC42F6E25DA5F2B00C03BE4 /* FruitViewController.swift */,
 			);
 			path = ReactorKitTutorial;
 			sourceTree = "<group>";
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAC42F6925DA5F1200C03BE4 /* Build configuration list for PBXNativeTarget "ReactorKitTutorial" */;
 			buildPhases = (
+				71B38A1C5564A62DB9FD182B /* [CP] Check Pods Manifest.lock */,
 				DAC42F5125DA5F1100C03BE4 /* Sources */,
 				DAC42F5225DA5F1100C03BE4 /* Frameworks */,
 				DAC42F5325DA5F1100C03BE4 /* Resources */,
+				E198901E0D37A52E1E1066F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +161,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		71B38A1C5564A62DB9FD182B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactorKitTutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E198901E0D37A52E1E1066F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactorKitTutorial/Pods-ReactorKitTutorial-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactorKitTutorial/Pods-ReactorKitTutorial-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactorKitTutorial/Pods-ReactorKitTutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DAC42F5125DA5F1100C03BE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAC42F5D25DA5F1100C03BE4 /* ViewController.swift in Sources */,
 				DAC42F5925DA5F1100C03BE4 /* AppDelegate.swift in Sources */,
 				DAC42F5B25DA5F1100C03BE4 /* SceneDelegate.swift in Sources */,
+				DAC42F6F25DA5F2B00C03BE4 /* FruitViewController.swift in Sources */,
+				DAC42F7D25DA626900C03BE4 /* FruitReactor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +355,7 @@
 		};
 		DAC42F6A25DA5F1200C03BE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D603B0FCB5E8DA4A845E30C /* Pods-ReactorKitTutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +375,7 @@
 		};
 		DAC42F6B25DA5F1200C03BE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77463D2444F53989B1430A24 /* Pods-ReactorKitTutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
